@@ -1,0 +1,10 @@
+## Alex4386 yarn/npm gitignore
+
+# TypeScript Compile Results
+dist/
+
+# WHAT'S HAPPENING TO MY HUNGRY GUUUUUUYYYYS!!!
+node_modules/
+
+# Default Configuration is FOR ME! NOM NOM NOM
+config/config.json

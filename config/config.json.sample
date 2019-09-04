@@ -1,0 +1,32 @@
+{
+    "discord": {
+        "clientId": "< get one from discordapp.com/developers >",
+        "updateRequestMilliseconds": 20000
+    },
+    "defaultRPC": {
+        "details": "Resting...",
+        "state": "휴식 중"
+    },
+    "subjects": [
+        {
+            "details": "< Title >",
+            "state": "< Details >",
+            "timestamp": null,
+            "smallImage": {
+                "key": null,
+                "text": null
+            },
+            "largeImage": {
+                "key": null,
+                "text": null
+            }
+        }, {
+            "details": "< Title >",
+            "state": "< Details >",
+            "timestamp": "Wednesday, 04-Sep-2019 11:00:00 GMT+0900"
+        }, {
+            "details": "< Title >",
+            "state": "< Details >"
+        }
+    ]
+}

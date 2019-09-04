@@ -1,0 +1,19 @@
+{
+  "name": "school-discord-rpc",
+  "version": "0.0.1",
+  "description": "Discord Rich Presence For School",
+  "main": "dist/",
+  "author": "Alex4386 <me@alex4386.us>",
+  "license": "MIT",
+  "dependencies": {
+    "discord-rpc": "^3.0.2",
+    "typescript": "^3.6.2"
+  },
+  "scripts": {
+    "start": "tsc && node dist/"
+  },
+  "devDependencies": {
+    "@types/discord-rpc": "^3.0.1",
+    "@types/node": "^12.7.4"
+  }
+}
