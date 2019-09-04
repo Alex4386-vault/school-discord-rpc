@@ -79,6 +79,15 @@ export function commandRunner(cmd: string) {
                 console.log(i+".",config.subjects[i].details);
             }
             break;
+        case "help":
+            console.log("Commands:");
+            console.log("set-details <state>","Sets Detail of Rich Presence");
+            console.log("set-state <state>", "Set State of Rich Presence.");
+            console.log("set-time <UTC Time String>", "Set Countdown or CountUp to specified time");
+            console.log("list", "list currently preconfigured subjects");
+            console.log("set <subject no>", "set current subject to specified preconfigured subject");
+            console.log("update", "override the regular update schedule and force update rich presence (spamming might cause temp-ban)")
+            break;
         case "set":
             if (stringArgument.toLowerCase() === "default") { loadDefaultConfig(); return; }
             const wa = parseInt(stringArgument);
